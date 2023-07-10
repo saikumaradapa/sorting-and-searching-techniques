@@ -15,6 +15,7 @@ def bubble_sort(arr) :
 
 
 
+
 def optimized_bubble_sort(arr) :
     already_sorted = True
     n = len(arr)
