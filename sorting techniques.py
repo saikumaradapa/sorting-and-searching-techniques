@@ -4,7 +4,8 @@ start = time.time()
 # array = [33, 22, 88, 66, 11, 44, 55, 77, 99]
 array = [x for x in range(100000)]
 
-'''Bubble Sort: Bubble Sort compares adjacent elements and swaps them if they are in the wrong order. 
+'''
+Bubble Sort: Bubble Sort compares adjacent elements and swaps them if they are in the wrong order. 
 It repeatedly passes through the array until the entire array is sorted.
 Best Case: O(n) - when the array is already sorted.
 Worst Case: O(n^2) - when the array is in reverse order.'''
@@ -38,8 +39,8 @@ def optimized_bubble_sort(arr) :
 
 
 
-'''Insertion Sort:
-Description: Insertion Sort builds the final sorted array one element at a time. 
+'''
+Insertion Sort: Description: Insertion Sort builds the final sorted array one element at a time. 
 It iterates through the array, comparing each element with its adjacent elements and 
 inserting it at the correct position in the sorted region.
 Best Case: O(n) - when the array is already sorted.
@@ -57,7 +58,8 @@ def insertion_sort(arr) :
 
 
 
-'''Selection Sort: Selection Sort divides the array into a sorted and an unsorted region. 
+'''
+Selection Sort: Selection Sort divides the array into a sorted and an unsorted region. 
 It repeatedly selects the smallest element from the unsorted region and 
 swaps it with the first element of the unsorted region.
 Best Case: O(n^2) - same as the worst case.
@@ -74,7 +76,8 @@ def selection_sort(arr) :
 
 
 
-'''Merge Sort: Merge Sort follows the divide-and-conquer approach. 
+'''
+Merge Sort: Merge Sort follows the divide-and-conquer approach. 
 It recursively divides the array into smaller subarrays, sorts them, and 
 then merges them back together.
 Best Case: O(n log n) - when the array is already sorted or nearly sorted.
@@ -109,7 +112,8 @@ def mergesort(arr) :
 
 
 
-'''Quick Sort: Quick Sort also follows the divide-and-conquer approach. 
+'''
+Quick Sort: Quick Sort also follows the divide-and-conquer approach. 
 It selects a pivot element, partitions the array into two subarrays based on the pivot, and 
 recursively sorts the subarrays.
 Best Case: O(n log n) - when the pivot divides the array into two roughly equal-sized subarrays.
