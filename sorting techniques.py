@@ -1,6 +1,7 @@
 import time
 start = time.time()
 
+
 # array = [33, 22, 88, 66, 11, 44, 55, 77, 99]
 array = [x for x in range(100000)]
 
